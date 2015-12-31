@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz App</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="clear">
+				<li><a class="instructions" href="#"> Instructions</a></li>
+				<li><a class="new" id="newButton" href="#">Start Over</a></li>				
+			</ul>
+		</nav>
+		
+		<div class="overlay" id="modal">
+			<div class="content">
+				<h2>Welcome to the Disney Quiz App!</h2>
+				<div>
+					<h3>How do I play?</h3>
+					<p>It's pretty simple. You're shown a picture on the left of a beloved Disney character and you just have to pick which one it is from the list on the right.</p>
+					<p>So, are you ready to play?</p>
+					<p><a class="close" href="#">Miska, Mooska, Mickey Mouse!</a></p>
+				</div>
+			</div>
+		</div>	
+
+	</header>
+
+	<!-- Guessing Section -->
+
+	<div class="container">
+		<h1>DISNEY CHARACTER QUIZ</h1>
+		<h2>You are on question x/6</h2>
+		<div class="game">
+			<img src="images/mickey.jpg" alt="Mickey Mouse">
+			<div class="buttons">
+				<ul>
+					<li>
+						<button class="choice">Mickey Mouse</button>
+					</li>
+					<li>
+						<button class="choice">Minnie Mouse</button>
+					</li>
+					<li>
+						<button class="choice">Goofy</button>
+					</li>
+					<li>
+						<button class="choice">Pluto</button>
+					</li>
+					<li>
+						<button class="choice">Donald Duck</button>
+					</li>
+					<li>
+						<button class="choice">Daisy Duck</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
